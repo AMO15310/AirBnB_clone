@@ -6,6 +6,7 @@ Module file_storage serializes and deserializes JSON types
 
 import json
 from typing import Dict
+from models.user import User
 from models.base_model import BaseModel
 
 class FileStorage:
